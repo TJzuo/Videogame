@@ -1,0 +1,513 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1700678814977902, "dur": 3626011, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700678814978337, "dur": 4256, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700678814982597, "dur": 64864, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700678815047463, "dur": 876582, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700678815924048, "dur": 2669601, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700678818593653, "dur": 10259, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700678818608601, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1700678815700627, "dur": 204184, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700678815702020, "dur": 66276, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700678815881875, "dur": 6297, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700678815888177, "dur": 16621, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700678815889197, "dur": 14632, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700678815911662, "dur": 1800, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1700678815910547, "dur": 2966, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700678818608924, "dur": 670, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1700678815980931, "dur":2575, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678815983535, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1700678815983608, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1700678815983641, "dur":477, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1700678815984147, "dur":807, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678815984955, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566194, "dur":206, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566400, "dur":107, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566508, "dur":83, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566591, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566612, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566617, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566633, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566638, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566654, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566660, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566672, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566676, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566687, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566691, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566701, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566705, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566717, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566737, "dur":15, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818566754, "dur":2975, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1700678815984495, "dur":510, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678815985013, "dur":9981, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678815995022, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1700678815995029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678815998374, "dur":789, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1700678815999168, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1700678815999269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678815999719, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1700678816002984, "dur":20286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1700678816023275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678816023288, "dur":6453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1700678816029961, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1700678816030366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678816031403, "dur":9804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1700678816041297, "dur":80206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678816121509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678816121522, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678816123807, "dur":233544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678816357359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678816357375, "dur":5442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678816362917, "dur":74435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678816437360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678816437374, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678816441452, "dur":168999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678816610460, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678816610479, "dur":8181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678816618779, "dur":229042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678816847830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678816847846, "dur":4278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678816852226, "dur":242400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817094635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678817094652, "dur":3115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817097892, "dur":5024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817102924, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678817102942, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817105402, "dur":1854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817107286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678817107305, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817110780, "dur":44415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817155203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678817155218, "dur":12084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817167417, "dur":630530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817797957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678817797972, "dur":17639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817815717, "dur":121380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817937107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678817937123, "dur":21503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678817958747, "dur":602921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678818561676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1700678818561689, "dur":4380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1700678818566138, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1700678818566143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678815984589, "dur":466, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678815985055, "dur":9956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678815995022, "dur":51319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1700678816046348, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678816047133, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1700678816049839, "dur":76113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816125960, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678816125976, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816128210, "dur":35983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816164236, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678816164251, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816166338, "dur":47744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816214128, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678816214144, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816216186, "dur":355360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816571555, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678816571573, "dur":5124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816576799, "dur":56539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816633347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678816633363, "dur":5314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816638777, "dur":43277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816682061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678816682076, "dur":13897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816696088, "dur":48315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816744452, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678816744469, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816747085, "dur":143350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816890444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678816890460, "dur":7328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678816897889, "dur":209460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678817107356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678817107369, "dur":26670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678817134154, "dur":96103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678817230267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678817230284, "dur":4791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678817235186, "dur":433938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678817669133, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678817669151, "dur":20002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678817689254, "dur":289814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678817979077, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678817979094, "dur":27181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678818006383, "dur":94165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678818100557, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1700678818100582, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1700678818103133, "dur":463082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678815984687, "dur":389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678815985076, "dur":9954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678815995031, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1700678815995678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816007547, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1700678816010037, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1700678816010226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816011072, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1700678816013510, "dur":15000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1700678816028516, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816028530, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1700678816031751, "dur":48967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816080727, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816082546, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816084564, "dur":34213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816118785, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816118841, "dur":2498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816121477, "dur":37924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816159407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816159420, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816161880, "dur":35053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816196941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816196958, "dur":3863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816200923, "dur":95014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816295946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816295979, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816298163, "dur":90001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816388172, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816388187, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816390765, "dur":64336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816455110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816455125, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816457618, "dur":43527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816501155, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816501191, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816503517, "dur":110562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816614088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816614105, "dur":5905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816620117, "dur":48521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816668647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816668700, "dur":15059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816684022, "dur":40995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816725026, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816725043, "dur":4484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816729633, "dur":59845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816789487, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816789504, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816792410, "dur":102895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816895313, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678816895349, "dur":6905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678816902362, "dur":189119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678817091490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678817091506, "dur":10166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678817101839, "dur":160040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678817261888, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678817261905, "dur":11258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678817273276, "dur":209966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678817483250, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678817483314, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678817485885, "dur":96344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678817582238, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678817582256, "dur":18738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678817601101, "dur":173086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678817774196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678817774212, "dur":13124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678817787450, "dur":302204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678818089663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1700678818089679, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1700678818092474, "dur":473714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678815984784, "dur":311, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678815985095, "dur":10054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678815995150, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1700678815995296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816006840, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1700678816009192, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1700678816009420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816009433, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1700678816013098, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1700678816013333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816013523, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1700678816016460, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1700678816016667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816016681, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1700678816018954, "dur":4178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816023141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816023964, "dur":6759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816030827, "dur":230235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816261071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816261103, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816263499, "dur":39948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816303561, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816303576, "dur":13238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816316905, "dur":119187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816436099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816436115, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816439056, "dur":44548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816483651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816483667, "dur":6681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816490449, "dur":83714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816574172, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816574189, "dur":3417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816577717, "dur":40395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816618121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816618137, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816621397, "dur":53686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816675092, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816675108, "dur":6881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816682091, "dur":73805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816755905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816755920, "dur":31108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816787131, "dur":37346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816824518, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816824534, "dur":8658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816833298, "dur":61178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816894485, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678816894501, "dur":6622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678816901234, "dur":188649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678817089893, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678817089911, "dur":4401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678817094460, "dur":91334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678817185804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678817185821, "dur":42627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678817228736, "dur":253246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678817481992, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678817482010, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678817485221, "dur":297813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678817783043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678817783059, "dur":18646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678817801815, "dur":291769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678818093593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1700678818093609, "dur":8972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1700678818102694, "dur":463492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678815984905, "dur":210, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678815985116, "dur":9899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678815995022, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1700678815995241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816009566, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1700678816012148, "dur":14303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1700678816026458, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816026472, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1700678816029192, "dur":155514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement.exe" }}
+,{ "pid":12345, "tid":5, "ts":1700678816184714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816184726, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement.exe" }}
+,{ "pid":12345, "tid":5, "ts":1700678816187408, "dur":146762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816334178, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816334194, "dur":20164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816354455, "dur":33839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816388300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816388313, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816392747, "dur":36138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816428895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816428910, "dur":6686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816435711, "dur":45766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816481486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816481501, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816485613, "dur":35063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816520684, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816520699, "dur":3734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816524542, "dur":122183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816646734, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816646772, "dur":5030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816651909, "dur":148991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816800909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816800925, "dur":25646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816826682, "dur":73018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816899709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678816899725, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678816903098, "dur":611868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678817514975, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678817514992, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678817517655, "dur":597894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678818115558, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1700678818115574, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1700678818118167, "dur":448016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678815985101, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678815985102, "dur":9927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678815995030, "dur":19569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1700678816014607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816014637, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1700678816017103, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1700678816017286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816017300, "dur":2673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1700678816020064, "dur":28327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816048398, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816048567, "dur":6929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816055638, "dur":73343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816128989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816129003, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816132058, "dur":46426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816178492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816178506, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816180535, "dur":118385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816298927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816298941, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816301288, "dur":218415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816519712, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816519728, "dur":7912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816527747, "dur":85020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816612776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816612792, "dur":8200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816621096, "dur":46245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816667350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816667366, "dur":13263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816680731, "dur":62188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816742928, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816742945, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816745456, "dur":45237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816790702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678816790717, "dur":26528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678816817349, "dur":336798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678817154195, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678817154213, "dur":3040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678817157362, "dur":73863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678817231233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678817231249, "dur":12430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678817243792, "dur":359798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678817603599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678817603616, "dur":43728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678817647456, "dur":319970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678817967435, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678817967452, "dur":8592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678817976729, "dur":419588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678818396324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1700678818396335, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1700678818398663, "dur":167537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678815985172, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678815985172, "dur":9859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678815995032, "dur":18202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1700678816013242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678816013273, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1700678816017328, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1700678816017494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678816017507, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1700678816020318, "dur":148610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678816168935, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678816168947, "dur":25341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678816194384, "dur":34437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678816228829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678816228843, "dur":4352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678816233280, "dur":338998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678816572284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678816572298, "dur":22719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678816595173, "dur":84073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678816679255, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678816679272, "dur":7134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678816686506, "dur":328372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678817014889, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678817014919, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678817018656, "dur":136140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678817154807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678817154826, "dur":10818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678817165755, "dur":273976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678817439741, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678817439757, "dur":7136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678817446999, "dur":82681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678817529690, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678817529708, "dur":3818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678817533637, "dur":536285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678818069929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678818069944, "dur":4724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1700678818074764, "dur":16136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1700678818090909, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1700678818090926, "dur":2945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1700678818093998, "dur":472192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678815985297, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678815985297, "dur":9787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678815995085, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1700678815995705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678815999743, "dur":3693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1700678816003528, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1700678816003712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816004430, "dur":2674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1700678816007187, "dur":17296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1700678816024493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816024511, "dur":3437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1700678816028045, "dur":7618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1700678816035670, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816035681, "dur":5074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1700678816040905, "dur":43578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816084487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816084589, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816086596, "dur":69412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816156015, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816156044, "dur":3315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816159457, "dur":33141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816192608, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816192624, "dur":4772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816197492, "dur":66586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816264085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816264099, "dur":12627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816276825, "dur":78667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816355500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816355533, "dur":6824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816362456, "dur":115643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816478107, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816478123, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816480780, "dur":37044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816517832, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816517848, "dur":3809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816521781, "dur":36110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816557937, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816557973, "dur":16475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816574560, "dur":74325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816648894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816648910, "dur":4334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816653791, "dur":92360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816746159, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816746184, "dur":5268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816751547, "dur":73300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816824876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816824890, "dur":9520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816834516, "dur":145014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816979539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678816979555, "dur":3706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678816983363, "dur":69403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817052775, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678817052793, "dur":11879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817064777, "dur":78541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817143327, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678817143346, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817146188, "dur":9679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817155874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678817155888, "dur":7105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817163099, "dur":2506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817165613, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678817165630, "dur":7691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817173426, "dur":143401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817316835, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678817316851, "dur":31579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817348536, "dur":195494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817544039, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678817544056, "dur":24058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678817568226, "dur":471656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678818039891, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818039907, "dur":4431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1700678818044439, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1700678818044726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818046769, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1700678818048853, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1700678818048963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818049067, "dur":17333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1700678818066508, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1700678818066624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818066637, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1700678818069899, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1700678818070014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818070025, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1700678818072453, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1700678818072748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818072807, "dur":6273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1700678818079179, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1700678818079277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818079290, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1700678818082366, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1700678818082471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818082485, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1700678818084859, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1700678818084962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818084976, "dur":2429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1700678818087508, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1700678818087609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818087622, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1700678818089925, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1700678818090357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1700678818090370, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/iamth/Documents/Unity Projects/Build/Dani FPS Movement_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1700678818093008, "dur":473176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1700678818572682, "dur":2753, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1700678818609730, "dur": 1076, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1700678818608582, "dur": 2258, "ph": "X", "name": "Write chrome-trace events", "args": {} },
